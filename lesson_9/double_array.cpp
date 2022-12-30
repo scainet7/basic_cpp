@@ -3,11 +3,8 @@
 
 int main()
 {
-	int ROW;
-	int COL;
-
-	ROW = 5;
-	COL = 5;
+	const int ROW = 5;
+	const int COL = 5;
 	int n[ROW][COL];
 	srand(time(NULL));
 	for (int i = 0; i < ROW; i++)

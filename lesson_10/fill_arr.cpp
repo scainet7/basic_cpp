@@ -17,8 +17,7 @@ void PrintArray(int arr[],const int size)
 
 int main()
 {
-	int SIZE;
-	SIZE = 10;
+	const int SIZE = 10;
 	int arr[SIZE];
 
 	FillArray(arr, SIZE);
