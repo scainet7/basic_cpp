@@ -19,7 +19,7 @@ int main()
 	std::cout << "a = " << a << std::endl;
 	std::cout << "b = " << b << std::endl;
 	std::cout << "c = " << c << std::endl;
-	std::cout << "==========\n";
+	std::cout << "=========\n";
 	foo(a, b, c);
 	std::cout << "a = " << a << std::endl;
 	std::cout << "b = " << b << std::endl;
