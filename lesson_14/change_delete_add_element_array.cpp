@@ -93,8 +93,8 @@ int ft_pop_between(int *&arr, const int size, const int index)
 	{
 		for (int i = 0; i < index; i++)
 			new_arr[i] = arr[i];
-		for (int i = index + 1; i < size; i++)
-			new_arr[i] = arr[i - 1];
+		for (int i = index; i < size; i++)
+			new_arr[i] = arr[i + 1];
 	}
 	delete[] arr;
 	arr = new_arr;
